@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5413CAB925A3A412002A62D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5413CAB825A3A412002A62D2 /* AppDelegate.swift */; };
+		5413CABB25A3A412002A62D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5413CABA25A3A412002A62D2 /* SceneDelegate.swift */; };
+		5413CAC025A3A412002A62D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5413CABE25A3A412002A62D2 /* Main.storyboard */; };
+		5413CAC225A3A413002A62D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5413CAC125A3A413002A62D2 /* Assets.xcassets */; };
+		5413CAC525A3A413002A62D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5413CAC325A3A413002A62D2 /* LaunchScreen.storyboard */; };
+		5413CACE25A3A42C002A62D2 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5413CACD25A3A42C002A62D2 /* CameraView.swift */; };
+		5413CAD125A3A45C002A62D2 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5413CAD025A3A45C002A62D2 /* CameraViewController.swift */; };
+		5413CAD525A3A4DB002A62D2 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5413CAD425A3A4DB002A62D2 /* AppError.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5413CAB525A3A412002A62D2 /* HandPointRecognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HandPointRecognition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5413CAB825A3A412002A62D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5413CABA25A3A412002A62D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5413CABF25A3A412002A62D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5413CAC125A3A413002A62D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5413CAC425A3A413002A62D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5413CAC625A3A413002A62D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5413CACD25A3A42C002A62D2 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		5413CAD025A3A45C002A62D2 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		5413CAD425A3A4DB002A62D2 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5413CAB225A3A412002A62D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5413CAAC25A3A412002A62D2 = {
+			isa = PBXGroup;
+			children = (
+				5413CAB725A3A412002A62D2 /* HandPointRecognition */,
+				5413CAB625A3A412002A62D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5413CAB625A3A412002A62D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5413CAB525A3A412002A62D2 /* HandPointRecognition.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5413CAB725A3A412002A62D2 /* HandPointRecognition */ = {
+			isa = PBXGroup;
+			children = (
+				5413CAD825A3A58D002A62D2 /* App */,
+				5413CADB25A3A664002A62D2 /* Camera */,
+				5413CADA25A3A615002A62D2 /* Resources */,
+				5413CAC625A3A413002A62D2 /* Info.plist */,
+			);
+			path = HandPointRecognition;
+			sourceTree = "<group>";
+		};
+		5413CAD825A3A58D002A62D2 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5413CAB825A3A412002A62D2 /* AppDelegate.swift */,
+				5413CABA25A3A412002A62D2 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		5413CADA25A3A615002A62D2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5413CABE25A3A412002A62D2 /* Main.storyboard */,
+				5413CAC125A3A413002A62D2 /* Assets.xcassets */,
+				5413CAC325A3A413002A62D2 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5413CADB25A3A664002A62D2 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				5413CAD425A3A4DB002A62D2 /* AppError.swift */,
+				5413CACD25A3A42C002A62D2 /* CameraView.swift */,
+				5413CAD025A3A45C002A62D2 /* CameraViewController.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5413CAB425A3A412002A62D2 /* HandPointRecognition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5413CAC925A3A413002A62D2 /* Build configuration list for PBXNativeTarget "HandPointRecognition" */;
+			buildPhases = (
+				5413CAB125A3A412002A62D2 /* Sources */,
+				5413CAB225A3A412002A62D2 /* Frameworks */,
+				5413CAB325A3A412002A62D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HandPointRecognition;
+			productName = HandPointRecognition;
+			productReference = 5413CAB525A3A412002A62D2 /* HandPointRecognition.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5413CAAD25A3A412002A62D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					5413CAB425A3A412002A62D2 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 5413CAB025A3A412002A62D2 /* Build configuration list for PBXProject "HandPointRecognition" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5413CAAC25A3A412002A62D2;
+			productRefGroup = 5413CAB625A3A412002A62D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5413CAB425A3A412002A62D2 /* HandPointRecognition */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5413CAB325A3A412002A62D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5413CAC525A3A413002A62D2 /* LaunchScreen.storyboard in Resources */,
+				5413CAC225A3A413002A62D2 /* Assets.xcassets in Resources */,
+				5413CAC025A3A412002A62D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5413CAB125A3A412002A62D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5413CAD125A3A45C002A62D2 /* CameraViewController.swift in Sources */,
+				5413CAB925A3A412002A62D2 /* AppDelegate.swift in Sources */,
+				5413CAD525A3A4DB002A62D2 /* AppError.swift in Sources */,
+				5413CABB25A3A412002A62D2 /* SceneDelegate.swift in Sources */,
+				5413CACE25A3A42C002A62D2 /* CameraView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5413CABE25A3A412002A62D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5413CABF25A3A412002A62D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5413CAC325A3A413002A62D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5413CAC425A3A413002A62D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5413CAC725A3A413002A62D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5413CAC825A3A413002A62D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5413CACA25A3A413002A62D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3VTG976PZS;
+				INFOPLIST_FILE = HandPointRecognition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.home.HandPointRecognition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5413CACB25A3A413002A62D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3VTG976PZS;
+				INFOPLIST_FILE = HandPointRecognition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.home.HandPointRecognition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5413CAB025A3A412002A62D2 /* Build configuration list for PBXProject "HandPointRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5413CAC725A3A413002A62D2 /* Debug */,
+				5413CAC825A3A413002A62D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5413CAC925A3A413002A62D2 /* Build configuration list for PBXNativeTarget "HandPointRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5413CACA25A3A413002A62D2 /* Debug */,
+				5413CACB25A3A413002A62D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5413CAAD25A3A412002A62D2 /* Project object */;
+}
