@@ -122,6 +122,7 @@ Developed By
 ------------
 
 * Hrebinik Artem, CHI Software
+* Kosyi Vlad, CHI Software
 
 License
 --------
